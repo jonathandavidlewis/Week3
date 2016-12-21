@@ -1,0 +1,174 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #AAAAAA;
+  font-family: 'Comic Sans', cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #AAAAAA;
+  border-radius: 0;
+  border-width: 2px;
+  border-color: #000000;
+  padding-bottom: 0px;
+}
+
+.navbar-header {
+	background-color: #AAAAAA;
+}
+
+.navbar-default .navbar-collapse {
+	border-color: #000000;
+	border-width: 2px;
+}
+
+.navbar-nav li a {
+	line-height: 10px;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+.nav hr {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #000
+}
+
+.navbar-nav {
+    margin-left: -15px;
+	margin-right: -15px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Comic Sans', cursive;
+  color: #000000;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 5;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  margin-top: 15px;
+}
+
+h3 {
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}	
+/* END HEADER */
+
+/* HOME PAGE */
+ 
+#main-content h1 {
+	background-color: #CCCCCC
+	margin-top: 0;
+	margin-bottom: 30px;
+	margin-top: 5px;
+}
+#main-content {
+	color: #000000;
+}
+ #main-content.container-fluid  {
+  background-color: #FFFFFF
+}
+
+#main-content span {
+  background-color: #888888;
+  padding-top: 1px;
+}
+#main-content section {
+  padding: 15px;
+}
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+#header-nav {
+	padding-bottom: 10px
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #header-nav {
+	padding-bottom: 10px
+}
+  /* End Header */
+
+  /* Home Page */
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 40px;
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand { /* Restaurant name */
+    padding-top: 5px;
+    padding-bottom: 0;
+    font-size: 2em;
+  }
+  /* End Header */
+
+}
+
+
+
